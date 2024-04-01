@@ -82,3 +82,5 @@ ModelManifest.xml
 
 rsz*.json
 RszTool.Test/test/
+.idea
+global.json
