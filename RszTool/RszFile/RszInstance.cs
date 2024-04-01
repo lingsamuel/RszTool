@@ -242,6 +242,7 @@ namespace RszTool
                     RszFieldType.Sfix2 => handler.Read<via.Sfix2>(),
                     RszFieldType.Sfix3 => handler.Read<via.Sfix3>(),
                     RszFieldType.Sfix4 => handler.Read<via.Sfix4>(),
+                    RszFieldType.Position => handler.Read<via.Postion>(),
                     _ => throw new NotSupportedException($"Not support type {field.type}"),
                 };
                 /* if (field.size != handler.Tell() - startPos)
